@@ -1,0 +1,15 @@
+@media screen and (max-width: 1100px) {
+  .sections {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .sections {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+}
